@@ -38,9 +38,9 @@
 - name: πGenerator.js
   tag: pi-generator
   url: "https://ivanreyeso7.github.io/Pi-day/"
-  code: "https://github.com/IvanReyesO7/audiovisual-taskmanager"
-  role: "Lead Developer"
-  description: "Designed for children with autism. AVC is a simple calendar and task tool, great as a digital replacement for whiteboard schedules."
+  code: "https://github.com/IvanReyesO7/Pi-day"
+  role: "Personal project"
+  description: "this is a quick and fun exercise to generate an approximate value of PI with a random coordinates generator using JavaScript and geometry basic concepts."
   cover: "avc/avc1.png"
   images:
     - "avc/avc2.png"
