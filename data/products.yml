@@ -17,5 +17,38 @@
     - <i class="devicon-postgresql-plain-wordmark"></i>
     - <i class="devicon-heroku-original-wordmark"></i>
 
-# - name: Other product
-#   image: other_product.png
+- name: AVC
+  tag: AVC
+  url: "https://www.autism-avc.app/"
+  code: "https://github.com/IvanReyesO7/audiovisual-taskmanager"
+  role: "Lead Developer"
+  description: "Designed for children with autism. AVC is a simple calendar and task tool, great as a digital replacement for whiteboard schedules."
+  cover: "avc/avc1.png"
+  images:
+    - "avc/avc2.png"
+  skills:
+    - <i class="devicon-ruby-plain-wordmark"></i>
+    - <i class="devicon-rails-plain-wordmark"></i>
+    - <i class="devicon-javascript-plain"></i>
+    - <i class="devicon-html5-plain-wordmark"></i>
+    - <i class="devicon-css3-plain-wordmark"></i>
+    - <i class="devicon-postgresql-plain-wordmark"></i>
+    - <i class="devicon-heroku-original-wordmark"></i>
+
+- name: πGenerator.js
+  tag: pi-generator
+  url: "https://ivanreyeso7.github.io/Pi-day/"
+  code: "https://github.com/IvanReyesO7/audiovisual-taskmanager"
+  role: "Lead Developer"
+  description: "Designed for children with autism. AVC is a simple calendar and task tool, great as a digital replacement for whiteboard schedules."
+  cover: "avc/avc1.png"
+  images:
+    - "avc/avc2.png"
+  skills:
+    - <i class="devicon-ruby-plain-wordmark"></i>
+    - <i class="devicon-rails-plain-wordmark"></i>
+    - <i class="devicon-javascript-plain"></i>
+    - <i class="devicon-html5-plain-wordmark"></i>
+    - <i class="devicon-css3-plain-wordmark"></i>
+    - <i class="devicon-postgresql-plain-wordmark"></i>
+    - <i class="devicon-heroku-original-wordmark"></i>
