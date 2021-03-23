@@ -25,6 +25,13 @@
         <p><b><%= product.name %></b></p>
         <p style="font-size: 3vh;"></span> <%= product.description %></p>
       </div>
+      <div class="skills d-flex justify-content-between align-items-center mt-1">
+        <% product.skills.each do |skill| %>
+          <span>
+            <%=skill%>
+          </span>
+        <% end %>
+      </div>
       <div class="d-flex justify-content-center btn-wrapper">
         <div class="btn-product d-flex justify-content-around">
           <% link_to product.url, target: '_blank' do %>

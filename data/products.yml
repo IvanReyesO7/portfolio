@@ -7,6 +7,14 @@
   images:
     - "geo-mems/geo-mem2.png"
     - "geo-mems/geo-mem3.png"
+  skills:
+    - <i class="devicon-ruby-plain-wordmark colored"></i>
+    - <i class="devicon-rails-plain-wordmark colored"></i>
+    - <i class="devicon-javascript-plain colored"></i>
+    - <i class="devicon-html5-plain-wordmark colored"></i>
+    - <i class="devicon-css3-plain-wordmark colored"></i>
+    - <i class="devicon-postgresql-plain-wordmark colored"></i>
+    - <i class="devicon-heroku-plain-wordmark colored"></i>
 
 # - name: Other product
 #   image: other_product.png
