@@ -1,0 +1,40 @@
+<% data.products.each do |product| %>
+  <div class="card-wrapper">
+    <div id="<%=product.tag%>Controls" class="carousel slide w-100" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item item active">
+          <%= image_tag product.cover, class: "project-img" %>
+        </div>
+        <% product.images.each do |img| %>
+          <div class="carousel-item item">
+            <%= image_tag img, class: "project-img" %>
+          </div>
+        <% end %>
+      </div>
+      <a class="carousel-control-prev" href="#<%=product.tag%>Controls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#<%=product.tag%>Controls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <div class="description">
+      <div class="body-text">
+        <p><b><%= product.name %></b></p>
+        <p></span> <%= product.description %></p>
+      </div>
+      <div class="d-flex justify-content-center btn-wrapper">
+        <div class="btn-product d-flex justify-content-around">
+          <% link_to product.url, target: '_blank' do %>
+            <i class="fas fa-external-link-square-alt"></i>
+          <% end %>
+          <% link_to product.code, target: '_blank' do %>
+            <i class="fab fa-github"></i>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+<% end %>

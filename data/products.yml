@@ -1,4 +1,12 @@
-- name: Some product
-  image: some_product.png
-- name: Other product
-  image: other_product.png
+- name: Geo-mems
+  tag: geo-memes
+  url: "https://geo-memories.herokuapp.com/geomems"
+  code: "https://github.com/IvanReyesO7/geo-memories"
+  description: "Individual project: Rails App that allows you to store, share and visualize memories (images) on a map!"
+  cover: "geo-mems/geo-mem1.png"
+  images:
+    - "geo-mems/geo-mem2.png"
+    - "geo-mems/geo-mem3.png"
+
+# - name: Other product
+#   image: other_product.png
