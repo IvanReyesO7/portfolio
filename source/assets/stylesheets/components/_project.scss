@@ -40,7 +40,17 @@
     flex-direction: column;
     justify-content: space-around;
   }
+  .link-to-project{
+    color: white;
+    text-decoration: none;
+    &:hover{
+      color: white;
+      text-decoration: none;
+    }
+  }
 }
+
+
 
 .project-img{
   max-width: 100%;
