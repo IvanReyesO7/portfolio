@@ -4,7 +4,7 @@ const terminalText = () => {
   const firstLine = () => {
       new Typed('#first-line', {
         strings: ["", " Ivan Reyes"],
-        typeSpeed: 50,
+        typeSpeed: 25,
         loop: false,
         showCursor: false
       });
@@ -21,7 +21,7 @@ const terminalText = () => {
   const secondLine = () => {
       new Typed('#second-line', {
         strings: ["", " Full-Stack developer"],
-        typeSpeed: 50,
+        typeSpeed: 25,
         loop: false,
         showCursor: false
       });
@@ -30,7 +30,7 @@ const terminalText = () => {
   const thirdLineOne = () => {
     new Typed('#third-line-one', {
       strings: ["", " ruby"],
-      typeSpeed: 50,
+      typeSpeed: 25,
       loop: false,
       showCursor: false
     });
@@ -43,18 +43,22 @@ const terminalText = () => {
   const thirdLineTwo = () => {
     new Typed('#third-line-two', {
     strings: ["", " ivan-reyes-portfolio.rb"],
-    typeSpeed: 50,
+    typeSpeed: 25,
     loop: false,
     showCursor: false
     });
   }
 
+  const displayInfo = () => {
+    document.querySelector(".info").hidden = false
+  }
 
   firstLine();
-  guest(2, secondLine, 2000);
-  guest(3, thirdLineOne, 4500);
-  setTimeout(rubyColor, 5500);
-  setTimeout(thirdLineTwo, 5500);
+  guest(2, secondLine, 1500);
+  guest(3, thirdLineOne, 4000);
+  setTimeout(rubyColor, 4500);
+  setTimeout(thirdLineTwo, 4450);
+  setTimeout(displayInfo, 7000);
 }
 
 export { terminalText };
