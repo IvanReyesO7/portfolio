@@ -4,10 +4,10 @@
   code: "https://github.com/IvanReyesO7/geo-memories"
   role: "individual project"
   description: "Web application that allows you to store, share, comment and visualize memories (images) on a map."
-  cover: "geo-mems/geo-mem1.png"
+  cover: "geo-mems/geo-mem1.webp"
   images:
-    - "geo-mems/geo-mem2.png"
-    - "geo-mems/geo-mem3.png"
+    - "geo-mems/geo-mem2.webp"
+    - "geo-mems/geo-mem3.webp"
   skills:
     - <i class="devicon-ruby-plain-wordmark"></i>
     - <i class="devicon-rails-plain-wordmark"></i>
