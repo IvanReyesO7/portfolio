@@ -40,7 +40,7 @@
   url: "https://ivanreyeso7.github.io/Pi-day/"
   code: "https://github.com/IvanReyesO7/Pi-day"
   role: "Personal project"
-  description: "this is a quick and fun exercise to generate an approximate value of PI with a random coordinates generator using JavaScript and geometry basic concepts."
+  description: "This is a quick and fun exercise to generate an approximate value of PI with a random coordinates generator using JavaScript and basic geometry concepts."
   cover: "pi/pi2.gif"
   images:
   skills:
