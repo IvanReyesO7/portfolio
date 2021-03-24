@@ -2,7 +2,7 @@
   tag: geo-memes
   url: "https://geo-memories.herokuapp.com/geomems"
   code: "https://github.com/IvanReyesO7/geo-memories"
-  role: "individual project"
+  role: "Individual project"
   description: "Web application that allows you to store, share, comment and visualize memories (images) on a map."
   cover: "geo-mems/geo-mem1.webp"
   images:
@@ -21,7 +21,7 @@
   tag: AVC
   url: "https://www.autism-avc.app/"
   code: "https://github.com/IvanReyesO7/audiovisual-taskmanager"
-  role: "Lead Developer"
+  role: "Lead developer"
   description: "Designed for children with autism. AVC is a simple calendar and task tool, great as a digital replacement for whiteboard schedules."
   cover: "avc/avc1.webp"
   images:
@@ -39,7 +39,7 @@
   tag: pi-generator
   url: "https://ivanreyeso7.github.io/Pi-day/"
   code: "https://github.com/IvanReyesO7/Pi-day"
-  role: "Personal project"
+  role: "Individual project"
   description: "This is a quick and fun exercise to generate an approximate value of PI with a random coordinates generator using JavaScript and basic geometry concepts."
   cover: "pi/pi2.gif"
   images:
@@ -52,7 +52,7 @@
   tag: stations-api
   url: "https://github.com/IvanReyesO7/tokyo-stations-API/"
   code: "https://github.com/IvanReyesO7/tokyo-stations-API/"
-  role: "Personal project"
+  role: "Individual project"
   description: "API that gives relevant information of stations and rail lines of Tokyo as a response to an HTTP request."
   cover: "stations/stations1.webp"
   images:
