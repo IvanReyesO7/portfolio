@@ -5,10 +5,12 @@
         <div class="carousel-item item active">
           <%= image_tag product.cover, class: "project-img" %>
         </div>
-        <% product.images.each do |img| %>
-          <div class="carousel-item item">
-            <%= image_tag img, class: "project-img" %>
-          </div>
+        <%if !product.images.nil?%>
+          <% product.images.each do |img| %>
+            <div class="carousel-item item">
+              <%= image_tag img, class: "project-img" %>
+            </div>
+          <% end %>
         <% end %>
       </div>
       <a class="carousel-control-prev" href="#<%=product.tag%>Controls" role="button" data-slide="prev">

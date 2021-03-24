@@ -51,6 +51,7 @@ const terminalText = () => {
 
   const displayInfo = () => {
     document.querySelector(".info").hidden = false
+    document.querySelector(".wrapper").hidden = false
   }
 
   firstLine();

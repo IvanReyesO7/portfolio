@@ -41,10 +41,24 @@
   code: "https://github.com/IvanReyesO7/Pi-day"
   role: "Personal project"
   description: "this is a quick and fun exercise to generate an approximate value of PI with a random coordinates generator using JavaScript and geometry basic concepts."
-  cover: "pi/pi1.png"
+  cover: "pi/pi2.gif"
   images:
-    - "pi/pi2.gif"
   skills:
     - <i class="devicon-javascript-plain"></i>
     - <i class="devicon-html5-plain-wordmark"></i>
     - <i class="devicon-css3-plain-wordmark"></i>
+
+- name: tokyo-stations-api
+  tag: stations-api
+  url: "https://github.com/IvanReyesO7/tokyo-stations-API/"
+  code: "https://github.com/IvanReyesO7/tokyo-stations-API/"
+  role: "Personal project"
+  description: "API that gives relevant information of stations and rail lines of Tokyo as a response to an HTTP request."
+  cover: "stations/stations1.png"
+  images:
+    - "stations/stations2.png"
+  skills:
+    - <i class="devicon-ruby-plain-wordmark"></i>
+    - <i class="devicon-rails-plain-wordmark"></i>
+    - <i class="devicon-javascript-plain"></i>
+    - <i class="devicon-heroku-original-wordmark"></i>
