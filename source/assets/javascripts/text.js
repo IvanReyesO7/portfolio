@@ -60,6 +60,7 @@ const terminalText = () => {
   setTimeout(rubyColor, 4500);
   setTimeout(thirdLineTwo, 4450);
   setTimeout(displayInfo, 7000);
+
 }
 
 export { terminalText };
