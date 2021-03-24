@@ -23,9 +23,9 @@
   code: "https://github.com/IvanReyesO7/audiovisual-taskmanager"
   role: "Lead Developer"
   description: "Designed for children with autism. AVC is a simple calendar and task tool, great as a digital replacement for whiteboard schedules."
-  cover: "avc/avc1.png"
+  cover: "avc/avc1.webp"
   images:
-    - "avc/avc2.png"
+    - "avc/avc2.webp"
   skills:
     - <i class="devicon-ruby-plain-wordmark"></i>
     - <i class="devicon-rails-plain-wordmark"></i>
@@ -54,9 +54,9 @@
   code: "https://github.com/IvanReyesO7/tokyo-stations-API/"
   role: "Personal project"
   description: "API that gives relevant information of stations and rail lines of Tokyo as a response to an HTTP request."
-  cover: "stations/stations1.png"
+  cover: "stations/stations1.webp"
   images:
-    - "stations/stations2.png"
+    - "stations/stations2.webp"
   skills:
     - <i class="devicon-ruby-plain-wordmark"></i>
     - <i class="devicon-rails-plain-wordmark"></i>
