@@ -1,6 +1,6 @@
 <% data.products.each do |product| %>
   <div class="card-wrapper">
-    <div id="<%=product.tag%>Controls" class="carousel slide w-100" data-ride="carousel">
+    <div id="<%=product.tag%>Controls" class="carousel slide w-100" data-ride="carousel" data-interval="false">
       <div class="carousel-inner">
         <div class="carousel-item item active">
           <%= image_tag product.cover, class: "project-img" %>
