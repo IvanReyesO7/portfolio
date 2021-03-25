@@ -1,13 +1,13 @@
 <% data.products.each do |product| %>
   <div class="card-wrapper">
-    <div id="<%=product.tag%>Controls" class="carousel slide w-100" data-ride="carousel" data-interval="false">
+    <div id="<%=product.tag%>Controls" class="carousel slide w-100" data-ride="carousel" data-interval="false" style="text-emphasis: center;">
       <div class="carousel-inner">
-        <div class="carousel-item item active">
-          <%= image_tag product.cover, class: "project-img" %>
+        <div class="carousel-item item active" style="text-align: center;">
+          <%= image_tag product.cover, class: "project-img", style: "text-align: center;" %>
         </div>
         <%if !product.images.nil?%>
           <% product.images.each do |img| %>
-            <div class="carousel-item item">
+            <div class="carousel-item item" style="text-align: center;" >
               <%= image_tag img, class: "project-img" %>
             </div>
           <% end %>
