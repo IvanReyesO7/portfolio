@@ -11,18 +11,17 @@
 .wrapper {
   z-index: -3;
 }
-.content {
-  width: 80%;
-  margin: 0 auto;
+.contain {
   height: 100%;
   line-height: 90%;
   font-size: 4vh;
   font-family: monospace;
   color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
 }
 .card-wrapper {
-  display: flex;
-  align-items: center;
   padding: 1em;
   transition: 0.4s;
   &:hover{
@@ -31,7 +30,6 @@
 
 }
 .description {
-  max-width: 15em;
   position: relative;
   .body-text {
     height: 80%;
@@ -57,11 +55,8 @@
 }
 
 @media (min-width: 901px) {
-  footer {
-    display: none;
-  }
   .description {
-    padding: 1em 1em 1em 2em;
+    padding: 1em 1em 1em 0em;
   }
 }
 @media (max-width: 810px) {
@@ -70,5 +65,40 @@
   }
   .card-wrapper {
     flex-direction: column;
+  }
+}
+
+// Smallest device
+@media (min-width: 100px) and (max-width: 575px) {
+  .contain {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .contain {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .contain {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .contain {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .contain {
+    grid-template-columns: 1fr 1fr;
   }
 }
