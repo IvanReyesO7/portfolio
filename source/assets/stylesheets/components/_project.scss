@@ -32,7 +32,7 @@
 
 }
 .description {
-  max-width: 15em;
+  max-width: 10em;
   position: relative;
   .body-text {
     height: 80%;
@@ -58,9 +58,6 @@
 }
 
 @media (min-width: 901px) {
-  footer {
-    display: none;
-  }
   .description {
     padding: 1em 1em 1em 2em;
   }
@@ -71,5 +68,40 @@
   }
   .card-wrapper {
     flex-direction: column;
+  }
+}
+
+// Smallest device
+@media (min-width: 100px) and (max-width: 575px) {
+  .contain {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .contain {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .contain {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .contain {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .contain {
+    grid-template-columns: 1fr 1fr;
   }
 }
