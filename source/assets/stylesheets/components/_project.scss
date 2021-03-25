@@ -11,14 +11,15 @@
 .wrapper {
   z-index: -3;
 }
-.content {
-  width: 80%;
-  margin: 0 auto;
+.contain {
   height: 100%;
   line-height: 90%;
   font-size: 4vh;
   font-family: monospace;
   color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
 }
 .card-wrapper {
   display: flex;
