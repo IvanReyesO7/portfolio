@@ -1,4 +1,4 @@
-- name: Geo-mems
+- name: Geo-memories
   tag: geo-memes
   url: "https://geo-memories.herokuapp.com/geomems"
   code: "https://github.com/IvanReyesO7/geo-memories"
